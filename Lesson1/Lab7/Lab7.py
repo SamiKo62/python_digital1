@@ -36,10 +36,10 @@ for i in range(0, gam):
         else:
             print("You won 100 NIS")
             b = b1+b
-    elif(cub1==1):
+    elif(cub1==1) and (cub1!=cub2):
         print("You won 20 NIS")
         b =  b + b3
-    elif(cub2==2):
+    elif(cub2==2) and (cub1!=cub2):
         print("You won 40 NIS")
         b = b + b4
     else:
